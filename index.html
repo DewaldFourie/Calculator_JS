@@ -5,18 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>CALCULATO</title>
+    <title>CALCULATOR</title>
 </head>
 <body>
-    <div class="top">
-        <h1>Calculator</h1>
-    </div>
-    <div class="middle">
-        
-    </div>
-    <div class="bottom">
+    <div class="calculator">
+        <div class="top">
+            <h1>C a l c u l a t o r</h1> 
+        </div>
+        <div class="middle">
+            <div class="display">0</div>
+            <div class="buttons">
 
+                <button class="operator" data-action="add" type="button" value="+">+</button>
+                <button class="operator" data-action="subtract" type="button" value="-">-</button>
+                <button class="operator" data-action="multiply" type="button" value="*">x</button>
+                <button class= "operator" data-action="divide" type="button" value="/">÷</button>
+
+                <button type="button" value="7">7</button>
+                <button type="button" value="8">8</button>
+                <button type="button" value="9">9</button>
+
+                <button type="button" value="4">4</button>
+                <button type="button" value="5">5</button>
+                <button type="button" value="6">6</button>
+
+                <button type="button" value="1">1</button>
+                <button type="button" value="2">2</button>
+                <button type="button" value="3">3</button>
+
+                <button type="button" value="0">0</button>
+                <button class="decimal" data-action="decimal" type="button" value=".">.</button>
+                <button class="all-clear" data-action="clear" type="button" value="all-clear">AC</button>
+                
+                <button class="equal-sign" data-action="calculate" type="button" value="=">=</button>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h4>Made by Dewald Fourie &copy 2023</h4>
     </div>
 </body>
-<script src="main.js"></script>
+    <script src="main.js"></script>
 </html>
